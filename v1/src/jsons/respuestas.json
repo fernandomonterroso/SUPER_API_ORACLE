@@ -1,0 +1,310 @@
+{
+    "data": [
+        {
+            "status_code": 1,
+            "estado_http": 200,
+            "message": "Éxito.",
+            "success": true
+        },
+        {
+            "status_code": 2,
+            "estado_http": 501,
+            "message": "Servicio inválido: este servicio no existe.",
+            "success": false
+        },
+        {
+            "status_code": 3,
+            "estado_http": 401,
+            "message": "Error de autenticación: no tiene permisos para acceder al servicio.",
+            "success": false
+        },
+        {
+            "status_code": 4,
+            "estado_http": 405,
+            "message": "Formato no válido: este servicio no existe en ese formato.",
+            "success": false
+        },
+        {
+            "status_code": 5,
+            "estado_http": 422,
+            "message": "Parámetros no válidos: los parámetros de su solicitud son incorrectos.",
+            "success": false
+        },
+        {
+            "status_code": 6,
+            "estado_http": 404,
+            "message": "ID no válido: el ID de requisito previo no es válido o no se encuentra.",
+            "success": false
+        },
+        {
+            "status_code": 7,
+            "estado_http": 401,
+            "message": "Clave de API no válida: se le debe otorgar una clave válida.",
+            "success": false
+        },
+        {
+            "status_code": 8,
+            "estado_http": 403,
+            "message": "Entrada duplicada: los datos que intentó enviar ya existen.",
+            "success": false
+        },
+        {
+            "status_code": 9,
+            "estado_http": 503,
+            "message": "Servicio fuera de línea: este servicio está temporalmente fuera de línea, inténtelo de nuevo más tarde.",
+            "success": false
+        },
+        {
+            "status_code": 10,
+            "estado_http": 401,
+            "message": "Clave de API suspendida: se ha suspendido el acceso a su cuenta, comuníquese con COMBEX-IM.",
+            "success": false
+        },
+        {
+            "status_code": 11,
+            "estado_http": 500,
+            "message": "Error interno: algo salió mal, comuníquese con COMBEX-IM.",
+            "success": false
+        },
+        {
+            "status_code": 12,
+            "estado_http": 201,
+            "message": "El artículo/registro se actualizó correctamente.",
+            "success": false
+        },
+        {
+            "status_code": 13,
+            "estado_http": 200,
+            "message": "El elemento/registro se eliminó con éxito.",
+            "success": false
+        },
+        {
+            "status_code": 14,
+            "estado_http": 401,
+            "message": "La autenticación falló.",
+            "success": false
+        },
+        {
+            "status_code": 15,
+            "estado_http": 500,
+            "message": "Fallido.",
+            "success": false
+        },
+        {
+            "status_code": 16,
+            "estado_http": 401,
+            "message": "Dispositivo denegado.",
+            "success": false
+        },
+        {
+            "status_code": 17,
+            "estado_http": 401,
+            "message": "Sesión denegada.",
+            "success": false
+        },
+        {
+            "status_code": 18,
+            "estado_http": 400,
+            "message": "Validación fallida.",
+            "success": false
+        },
+        {
+            "status_code": 19,
+            "estado_http": 406,
+            "message": "Encabezado de aceptación no válido.",
+            "success": false
+        },
+        {
+            "status_code": 20,
+            "estado_http": 422,
+            "message": "Intervalo de fechas no válido: debe ser un intervalo de no más de 14 días.",
+            "success": false
+        },
+        {
+            "status_code": 21,
+            "estado_http": 200,
+            "message": "Entrada no encontrada: no se puede encontrar el elemento que está tratando de editar.",
+            "success": false
+        },
+        {
+            "status_code": 22,
+            "estado_http": 400,
+            "message": "Página no válida: las páginas comienzan en 1 y tienen un máximo de 1000. Se espera que sean un número entero.",
+            "success": false
+        },
+        {
+            "status_code": 23,
+            "estado_http": 400,
+            "message": "Fecha no válida: el formato debe ser AAAA-MM-DD.",
+            "success": false
+        },
+        {
+            "status_code": 24,
+            "estado_http": 504,
+            "message": "Se agotó el tiempo de espera de su solicitud al servidor backend. Intentar otra vez.",
+            "success": false
+        },
+        {
+            "status_code": 25,
+            "estado_http": 429,
+            "message": "Su número de solicitudes (#) supera el límite permitido de (40).",
+            "success": false
+        },
+        {
+            "status_code": 26,
+            "estado_http": 400,
+            "message": "Debe proporcionar un nombre de usuario y una contraseña.",
+            "success": false
+        },
+        {
+            "status_code": 27,
+            "estado_http": 400,
+            "message": "Demasiados anexos a los objetos de respuesta: el número máximo de llamadas remotas es 20.",
+            "success": false
+        },
+        {
+            "status_code": 28,
+            "estado_http": 400,
+            "message": "Zona horaria no válida: consulte la documentación para conocer una zona horaria válida.",
+            "success": false
+        },
+        {
+            "status_code": 29,
+            "estado_http": 400,
+            "message": "Debe confirmar esta acción: proporcione un parámetro confirm=true.",
+            "success": false
+        },
+        {
+            "status_code": 30,
+            "estado_http": 401,
+            "message": "Nombre de usuario y/o contraseña no válidos: no proporcionó un inicio de sesión válido.",
+            "success": false
+        },
+        {
+            "status_code": 31,
+            "estado_http": 401,
+            "message": "Cuenta deshabilitada: Su cuenta ya no está activa. Póngase en contacto con COMBEX-IM si se trata de un error.",
+            "success": false
+        },
+        {
+            "status_code": 32,
+            "estado_http": 401,
+            "message": "Correo electrónico no verificado: Su dirección de correo electrónico no ha sido verificada.",
+            "success": false
+        },
+        {
+            "status_code": 33,
+            "estado_http": 401,
+            "message": "Token de solicitud no válido: el token de solicitud está vencido o no es válido.",
+            "success": false
+        },
+        {
+            "status_code": 34,
+            "estado_http": 404,
+            "message": "No se pudo encontrar el recurso que solicitó.",
+            "success": false
+        },
+        {
+            "status_code": 35,
+            "estado_http": 401,
+            "message": "Simbolo no valido.",
+            "success": false
+        },
+        {
+            "status_code": 36,
+            "estado_http": 401,
+            "message": "El usuario no ha concedido permiso de escritura a este token.",
+            "success": false
+        },
+        {
+            "status_code": 37,
+            "estado_http": 404,
+            "message": "No se pudo encontrar la sesión solicitada.",
+            "success": false
+        },
+        {
+            "status_code": 38,
+            "estado_http": 401,
+            "message": "No tienes permiso para editar este recurso.",
+            "success": false
+        },
+        {
+            "status_code": 39,
+            "estado_http": 401,
+            "message": "Este recurso es privado.",
+            "success": false
+        },
+        {
+            "status_code": 40,
+            "estado_http": 200,
+            "message": "Nada que actualizar.",
+            "success": false
+        },
+        {
+            "status_code": 41,
+            "estado_http": 422,
+            "message": "Este token de solicitud no ha sido aprobado por el usuario.",
+            "success": false
+        },
+        {
+            "status_code": 42,
+            "estado_http": 405,
+            "message": "Este método de solicitud no es compatible con este recurso.",
+            "success": false
+        },
+        {
+            "status_code": 43,
+            "estado_http": 502,
+            "message": "No se pudo conectar con el servidor backend.",
+            "success": false
+        },
+        {
+            "status_code": 44,
+            "estado_http": 500,
+            "message": "La identificación no es válida.",
+            "success": false
+        },
+        {
+            "status_code": 45,
+            "estado_http": 403,
+            "message": "Este usuario ha sido suspendido.",
+            "success": false
+        },
+        {
+            "status_code": 46,
+            "estado_http": 503,
+            "message": "La API está en mantenimiento. Vuelva a intentarlo más tarde.",
+            "success": false
+        },
+        {
+            "status_code": 47,
+            "estado_http": 400,
+            "message": "La entrada no es válida.",
+            "success": false
+        },
+        {
+            "status_code": 48,
+            "estado_http": 506,
+            "message": "Error controlado del método específico. ",
+            "success": false
+        },
+        {
+            "status_code": 49,
+            "estado_http": 500,
+            "message": "Error no controlado: <error>.",
+            "success": false
+        },
+        {
+            "status_code": 50,
+            "estado_http": 500,
+            "message": "Error de autenticación de base de datos: <error>.",
+            "success": false
+        },
+        {
+            "status_code": 51,
+            "estado_http": 401,
+            "message": "Petición no tiene la cabecera de autenticación.",
+            "success": false
+        }
+    ]
+}

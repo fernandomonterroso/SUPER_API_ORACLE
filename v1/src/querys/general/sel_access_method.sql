@@ -1,0 +1,9 @@
+SELECT 
+	*
+FROM 
+SAB.SAB_GENE_WS W
+	, SAB.SAB_GENE_WS_DET DW
+WHERE
+		W.WS_ROUTE  = :originalUrl
+		AND W.WS_ID		= DW.WS_ID
+		AND :user_id = DW.USER_ID
